@@ -1,8 +1,8 @@
 {
   "name": "@9fv.io/invalidtype-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An exception class to throw 'invalid type' errors.",
-  "main": "lib/index.js",
+  "main": "lib/invalidtype-error.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
