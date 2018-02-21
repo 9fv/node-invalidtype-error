@@ -1,0 +1,13 @@
+```javascript
+
+const {InvalidTypeError} = require('@9fv.io/invalidtype-error')
+
+function test(o) {
+  if (typeof o !== 'object') {
+    throw new InvalidTypeError('Provided paramater must be an object!')
+  }
+}
+
+test('string') // throw an error of type {InvalidTypeError}.
+
+```
